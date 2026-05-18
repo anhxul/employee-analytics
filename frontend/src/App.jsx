@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback } from "react";
 import { AuthProvider, useAuth } from "./context/AuthContext";
 import { Toaster, toast } from "react-hot-toast";
 
-const BACKEND = "https://employee-analytics-api.onrender.com"; // Change after deploy
+const BACKEND = "https://employee-analytics-ifej.onrender.com"; // Change after deploy
 
 // ─── API helper ───────────────────────────────────────
 const api = async (path, method = "GET", body = null, token = "") => {
